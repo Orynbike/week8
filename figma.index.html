@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/week8/font/Intro-Black.woff" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <style>
+            @font-face {
+  font-family: 'Intro';
+  src: 
+       url(/week8/font/Intro-Black.woff) format('woff');
+ 
+}
+.header {
+    width: 1440px;
+height: 900px;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 20px 100px 0px rgba(8, 24, 81, 0.25);
+}
+        .browser img {
+            background: url(/week8/assets/images/browser.png), lightgray 50% / cover no-repeat;
+            width: 1440px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .logo img {
+            width: 201px;
+height: 40px;
+flex-shrink: 0;
+padding-top: 90px;
+padding-left: 76px;
+        }
+
+        h1 {
+            color: var(--unnamed, #000);
+font-family: 'Intro';
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 72px */
+width: 542px;
+padding-left: 126px;
+        }
+        .button-cart {
+            margin-left: 1251px;
+            padding-right: 74px;
+            color: white; /* Устанавливаем белый цвет текста */
+  padding: 10px 20px;
+  border-radius: 100px;
+background: var(--unnamed, #5222D0);
+font-family: 'Intro';
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        .text{
+            color: var(--unnamed, #000);
+font-family: 'Roboto Slab', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%; /* 32px */
+width: 487px;
+padding-left: 126px;
+        }
+        .button-buy {
+            margin-left: 116px;
+            background: var(--unnamed, #5222D0);
+font-family: 'Intro';
+            width: 270px;
+height: 84px;
+flex-shrink: 0;
+border-radius: 100px;
+color: white; /* Устанавливаем белый цвет текста */
+
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        .link-primary {
+            color: #5222D0;
+font-family: 'Roboto Slab', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%; /* 32px */
+display: inline; /* Это может понадобиться, чтобы ссылки занимали всю ширину контейнера */
+    margin-left: 34px;
+    text-decoration: none; 
+    padding-left: 126px;
+    margin-top: 146px;
+        }
+        .pic {
+    margin-top: 100px; /* Adjust as needed */
+    padding-left: 657px;
+    width: 1096.34px;
+height: 724.313px;
+  }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+    <img src="/week8/assets/images/browser.png" class="browser" alt="browser">
+    <img src="/week8/assets/images/logo.png" class="logo" alt="logo"> 
+    <img src="/week8/assets/images/button-cart.png" class="button-cart">
+    <h1>Виртуальная реальность без проводов</h1>
+    <p class="text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
+    <div class="pic"><img src="/week8/assets/images/pic.svg">
+    </div>
+    <img src="/week8/assets/images/button-buy.png" class="button-buy">
+    <nav class="navigation">
+        <a href="#" class="link-primary">Возможности</a>
+        <a href="#" class="link-primary">Где купить</a>
+        <a href="#" class="link-primary">Доставка</a>
+        <a href="#" class="link-primary">Помощь</a>
+    </nav>
+    </header>
+</body>
+</html>
